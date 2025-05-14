@@ -1,0 +1,11 @@
+# Required for interacting with Binance API
+python-binance==1.0.15
+
+# For making HTTP requests (if needed)
+requests==2.31.0
+
+# For logging functionality
+logging
+
+# For managing environment variables (if used)
+python-dotenv==1.0.0

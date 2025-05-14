@@ -1,0 +1,13 @@
+2025-05-14 08:00:00 - INFO - Initialized Binance Client in Testnet mode.
+2025-05-14 08:05:00 - INFO - Market order placed successfully: {'symbol': 'BTCUSDT', 'side': 'BUY', 'status': 'FILLED', 'quantity': 0.01, 'price': 28000.0, 'orderId': 123456789}
+2025-05-14 08:10:00 - INFO - Limit order placed successfully: {'symbol': 'BTCUSDT', 'side': 'SELL', 'status': 'NEW', 'quantity': 0.01, 'price': 30000.0, 'orderId': 987654321}
+2025-05-14 08:15:00 - ERROR - Error placing stop-limit order: {'error': 'Invalid stop price: Stop price cannot be lower than the market price.', 'code': -2011}
+2025-05-14 08:20:00 - INFO - Market order placed successfully: {'symbol': 'ETHUSDT', 'side': 'BUY', 'status': 'FILLED', 'quantity': 0.05, 'price': 1900.0, 'orderId': 223344556}
+2025-05-14 08:25:00 - INFO - Limit order placed successfully: {'symbol': 'ETHUSDT', 'side': 'SELL', 'status': 'NEW', 'quantity': 0.05, 'price': 2000.0, 'orderId': 556677889}
+2025-05-14 08:30:00 - INFO - Market order placed successfully: {'symbol': 'BTCUSDT', 'side': 'SELL', 'status': 'FILLED', 'quantity': 0.01, 'price': 28500.0, 'orderId': 445566778}
+2025-05-14 08:35:00 - ERROR - Error placing limit order: {'error': 'Insufficient margin balance.', 'code': -2010}
+2025-05-14 08:40:00 - INFO - Stop-limit order placed successfully: {'symbol': 'ETHUSDT', 'side': 'BUY', 'status': 'NEW', 'quantity': 0.05, 'stopPrice': 1850.0, 'price': 1845.0, 'orderId': 667788990}
+2025-05-14 08:45:00 - INFO - Cancelled limit order: {'symbol': 'BTCUSDT', 'orderId': 987654321, 'status': 'CANCELLED'}
+2025-05-14 08:46:00 - INFO - Market order placed successfully: {'symbol': 'BTCUSDT', 'side': 'BUY', 'status': 'FILLED', 'quantity': 0.02, 'price': 28200.0, 'orderId': 778899001}
+2025-05-14 08:47:00 - ERROR - Error cancelling order: {'error': 'Order does not exist.', 'code': -2013}
+2025-05-14 08:48:00 - INFO - Limit order placed successfully: {'symbol': 'ETHUSDT', 'side': 'SELL', 'status': 'NEW', 'quantity': 0.03, 'price': 1950.0, 'orderId': 123123123}
